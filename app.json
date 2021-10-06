@@ -8,6 +8,7 @@
   "repository": "https://github.com/skillhire/postgraphile-node",
 	"env": {
 		"NODE_ENV": "production",
+    "DB_URI": "Postgres database connection URL",
 		"ACCESS_TOKEN": {
 			"description": "This gets generated",
 			"generator": "secret"
