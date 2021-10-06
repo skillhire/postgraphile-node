@@ -7,13 +7,10 @@
   "logo": "https://avatars.githubusercontent.com/u/48537274",
   "repository": "https://github.com/skillhire/postgraphile-node",
 	"env": {
-		"RAILS_ENV": "production",
+		"NODE_ENV": "production",
 		"ACCESS_TOKEN": {
 			"description": "This gets generated",
 			"generator": "secret"
 		}		
 	},
-	"scripts": {
-		"postdeploy": "bundle exec rake db:migrate"
-	}
 }
