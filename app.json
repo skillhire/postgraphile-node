@@ -12,5 +12,8 @@
 			"description": "This gets generated",
 			"generator": "secret"
 		}		
+	},
+	"scripts": {
+		"postdeploy": ""
 	}
 }
