@@ -1,9 +1,9 @@
 var parseUri = require('parse-uri')
 const { postgraphile } = require('postgraphile')
 
-const { DATABASE_URL } = process.env
+const { DB_URI } = process.env
 
-const uri = parseUri(DATABASE_URL)
+const uri = parseUri(DB_URI)
 
 module.exports = postgraphile(
     {
